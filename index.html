@@ -27,7 +27,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 
 /* ── LANG BAR ── */
 .lang-bar{position:fixed;top:0;left:0;right:0;z-index:999;display:flex;justify-content:flex-end;align-items:center;
-padding:10px 28px;background:rgba(255,253,247,.96);backdrop-filter:blur(16px);
+padding:10px 28px;background:rgba(255,253,247,0.99);backdrop-filter:blur(20px);
 border-bottom:1px solid var(–border);box-shadow:var(–sh);}
 .lang-toggle{display:flex;align-items:center;background:rgba(196,109,172,.08);
 border:1.5px solid rgba(196,109,172,.25);border-radius:30px;padding:3px;gap:2px;}
@@ -54,10 +54,8 @@ display:flex;align-items:center;justify-content:center;font-size:40px;}
 .hero-txt{flex:1;}
 
 /* NAME — always visible */
-.hero-name{font-size:clamp(22px,4vw,34px);font-weight:900;color:var(–text-dark);line-height:1.3;margin-bottom:4px;}
-.hero-name-sub{font-size:clamp(18px,3vw,26px);font-weight:800;margin-bottom:10px;
-background:linear-gradient(135deg,var(–peach),var(–orchid),var(–purple));
--webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.hero-name{font-size:clamp(26px,5vw,40px);font-weight:900;color:#1A0A25;line-height:1.25;margin-bottom:4px;text-shadow:0 1px 5px rgba(92,26,107,0.18);letter-spacing:-0.3px;}
+.hero-name-sub{font-size:clamp(20px,3.5vw,30px);font-weight:900;color:#5C1A6B;margin-bottom:12px;text-shadow:0 2px 6px rgba(92,26,107,0.20);}
 
 .tags{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:16px;}
 .tag{padding:4px 13px;border-radius:30px;font-size:12.5px;font-weight:700;border:1.5px solid;}
@@ -382,7 +380,7 @@ html[dir=“ltr”] .quote{border-left:none;border-top:3px solid var(–peach);p
       <span class="sec-sub">About Me</span>
     </div>
   </div>
-  <p class="about-txt ar-txt">خريجة الحوسبة التطبيقية وتقنية الشبكات بمرتبة الشرف الأولى ومعدل متميز <strong>(4.94/5)</strong>، أجمع بين المعرفة التقنية واللمسة الإبداعية لتطوير حلول رقمية فعالة. أمتلك شغفًا بالتعلم المستمر وأعكف حالياً على التحضير لشهادات <strong>CCNA</strong> و<strong>ITIL 4</strong>.</p>
+  <p class="about-txt ar-txt">خريجة الحوسبة التطبيقية وتقنية الشبكات بمرتبة الشرف الأولى ومعدل متميز <strong>(4.94/5)</strong>، أجمع بين المعرفة التقنية واللمسة الإبداعية لتطوير حلول رقمية فعالة. أمتلك شغفًا بالتعلم المستمر وأسعى جاهدة حالياً على التحضير لشهادات <strong>CCNA</strong> و<strong>ITIL 4</strong> لتعزيز خبرتي المهنية.</p>
   <p class="about-txt en-txt" style="display:none">A graduate in Applied Computing and Network Technology with First-Class Honors and a GPA of <strong>(4.94/5)</strong>. I combine technical knowledge with creative flair. Currently preparing for <strong>CCNA</strong> and <strong>ITIL 4</strong> certifications.</p>
   <div class="gpa">✦ &nbsp;4.94 / 5 &nbsp;|&nbsp; <span class="ar-txt">مرتبة الشرف الأولى</span><span class="en-txt" style="display:none">First Class Honors</span></div>
 </div>
